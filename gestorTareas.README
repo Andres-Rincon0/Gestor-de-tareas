@@ -1,0 +1,73 @@
+<h1>Gestor de Tareas</h1>
+
+<h1>Descripcion</h1>
+<p>
+Gestor de Tareas es una aplicación de escritorio desarrollada en Python que permite a los usuarios gestionar sus tareas de manera eficiente. La aplicación utiliza una interfaz gráfica de usuario (GUI) construida con Tkinter y almacena los datos de las tareas en una base de datos SQLite.
+</p>
+
+<br>
+
+<h2>Requisitos</h2>
+<strong>Antes de ejecutar la aplicación, asegúrate de tener instalados los siguientes programas:</strong>
+
+<ul>
+    <li>
+    Python 3.x: Asegúrate de tener Python instalado en tu sistema. Puedes descargarlo desde python.org.</li>
+    
+    <li>
+    Cmder: Se recomienda instalar Cmder para poder visualizar la aplicación correctamente. Puedes descargarlo desde cmder.net. </li>
+
+    <li>
+    DB Browser for SQLite: Para visualizar y gestionar la base de datos SQLite, puedes utilizar DB Browser. Descárgalo desde sqlitebrowser.org. </li>
+</ul>
+
+<br>
+<h2>Instalación</h2>
+<strong>Para instalar la aplicación, sigue estos pasos:</strong>
+
+<ul>
+    <li>
+        1. Clona el repositorio de GitHub: Utiliza el comando 
+        <code>git clone https://github.com/Andres-Rincon0/gestor_de_tareas.git</code>
+    
+        <code>cd gestor_de_tareas</code> 
+    </li>
+
+    <li>
+        2. Crea un entorno virtual (opcional pero recomendado):
+
+        <code>python -m venv env</code>
+        <code>source env/bin/activate  #En Linux o Mac</code>
+        <code>env\Scripts\activate  #En Windows</code>
+    </li>
+    <li>
+        3. Instalar dependecias:
+
+        <code>pip install -r requirements.txt</code>
+    </li>
+
+
+</ul>
+
+<h1>USO</h1>
+
+<p>1. <strong>Ejecuta la aplicación </strong> Abre Cmder y navega hasta el directorio donde se encuentra el archivo Gestor_Tareas.py. Luego ejecuta el siguiente comando:
+
+<code>python Gestor_Tareas.py</code>
+</p>
+
+<p>2. <strong>Interfaz de usuario:  </strong> La aplicación te permitirá crear, editar y eliminar tareas. También podrás visualizar la lista de tareas almacenadas en la base de datos.</p>
+
+<p>3. <Strong>Base de datos:</Strong> La base de datos se encuentra en el directorio db/tareas.db. Puedes abrirla con DB Browser for SQLite para ver y gestionar los registros de tareas.</p>
+
+<h1>Funcionalidades</h1>
+<ul>
+    <li>Crear nuevas tareas.</li>
+    <li>Editar tareas existentes.</li>
+    <li>Eliminar tareas.</li>
+    <li>Visualizar la lista de tareas en una tabla.</li>
+</ul>
+
+<h1>Contribuciones</h1>
+
+<p>Si deseas contribuir a este proyecto, siéntete libre de hacer un fork del repositorio y enviar un pull request.</p>
